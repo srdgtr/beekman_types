@@ -4,5 +4,7 @@ import sys
 def install(package):
     subprocess.call([sys.executable, "-m", "pip", "install", package])
 
-install("requests-html")
+install("httpx")
+install("lxml")
 install("Html2Image")
+
